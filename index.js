@@ -3,4 +3,3 @@ greeting.style.textAlign = "center";
 greeting.style.marginTop = "50px";
 const username = window.prompt("What is your name?", "Your name here");
 greeting.innerHTML = "Welcome to my website, " + username;
-console.log(greeting);
